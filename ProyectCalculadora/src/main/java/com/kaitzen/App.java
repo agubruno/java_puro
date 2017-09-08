@@ -1,13 +1,11 @@
 package com.kaitzen;
 
-/**
- * Hello world!
- *
- */
 public class App 
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	Calculadora nuevacalculadora = new Calculadora();
+    	
+        System.out.println( nuevacalculadora.division(6, 3));
     }
 }
